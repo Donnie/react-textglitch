@@ -1,5 +1,5 @@
 {
-  "name": "react-textglitch",
+  "name": "@donnie/react-textglitch",
   "version": "1.0.0",
   "description": "For a Stranger Things style glitch effect to strings",
   "author": "Donnie",
@@ -21,13 +21,13 @@
     "minimist": ">=0.2.1"
   },
   "devDependencies": {
-    "@types/react": "^16.3.13",
-    "@types/react-dom": "^16.0.5",
+    "@types/react": "^16.9.41",
+    "@types/react-dom": "^16.9.8",
     "babel-core": "^6.26.3",
     "babel-runtime": "^6.26.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "rollup": "^1.29.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "rollup": "^1.32.1",
     "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-typescript2": "^0.25.3",
     "typescript": "^2.8.3"
@@ -35,9 +35,13 @@
   "files": [
     "dist"
   ],
+  "typings": "dist/index.d.ts",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "keywords": [
     "react",
-    "typescript",
-    "npm"
+    "glitch",
+    "text-glitch"
   ]
 }
