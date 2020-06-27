@@ -2,11 +2,14 @@ import * as React from 'react'
 import './styles.scss'
 
 interface Props {
-  text: string;
+  children: React.ReactElement,
 }
 
-const Glitch: React.FC<Props> = ({ text }) => (
-  <span className="glitch-tyu461" data-text={text}>{text}</span>
-)
+const Glitch: React.FC<Props> = ({ children }) : React.ReactElement => {
+  return React.cloneElement(children, {
+    className: `glitch ${children.props.className || ''}`,
+    'data-text': children.props.children,
+  })
+}
 
 export default Glitch

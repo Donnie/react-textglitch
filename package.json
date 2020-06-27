@@ -1,8 +1,8 @@
 {
-  "name": "@donnie/react-textglitch",
-  "version": "1.0.4",
+  "name": "@donnieashok/react-textglitch",
+  "version": "1.0.5",
   "description": "For a Stranger Things style glitch effect to strings",
-  "author": "Donnie",
+  "author": "donnieashok",
   "license": "Apache-2.0",
   "repository": "donnie/react-textglitch",
   "main": "dist/index.js",
@@ -36,9 +36,6 @@
     "dist"
   ],
   "typings": "dist/index.d.ts",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "react",
     "glitch",

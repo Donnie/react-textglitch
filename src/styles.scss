@@ -7,9 +7,7 @@
   height: 100%;
 }
 
-.glitch-tyu461 {
-  position: relative;
-  color: white;
+.glitch {
   animation: glitch-skew 1s infinite linear alternate-reverse;
   
   &::before{
