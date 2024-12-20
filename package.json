@@ -1,6 +1,6 @@
 {
   "name": "@donnieashok/react-textglitch",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "For a Stranger Things style glitch effect to strings",
   "author": "donnieashok",
   "license": "Apache-2.0",
@@ -14,20 +14,19 @@
     "build": "rollup -c",
     "start": "rollup -c -w"
   },
-  "dependencies": {},
   "peerDependencies": {
-    "react": ">= 16.8.0 < 2",
-    "react-dom": ">= 16.8.0 < 2",
-    "minimist": ">=0.2.1"
+    "minimist": ">=0.2.1",
+    "react": ">= 19.0.0 < 20",
+    "react-dom": ">= 19.0.0 < 20"
   },
   "devDependencies": {
-    "@types/react": "^16.9.41",
-    "@types/react-dom": "^16.9.8",
-    "babel-core": "^6.26.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "babel-core": "^4.7.16",
     "babel-runtime": "^6.26.0",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "rollup": "^1.32.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "rollup": "^4.28.1",
     "rollup-plugin-sass": "^1.2.2",
     "rollup-plugin-typescript2": "^0.25.3",
     "typescript": "^2.8.3"

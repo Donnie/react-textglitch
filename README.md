@@ -3,7 +3,7 @@
 A simple lightweight library to give your text a Stranger Things style glitch effect. 6.2 KB when packed.
 
 ## Demo
-https://donnieashok.in
+https://donnie.in
 
 ## Usage
 
